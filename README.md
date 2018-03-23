@@ -24,11 +24,16 @@
 - `$vert` = Número aproximado de vértices+edges;
 - `$scc` = Número de SCC especificado.
 
-6. Para usar linhas no grafo para regressão linear:
+6. Para usar linhas no grafico para regressão linear:
   * `f(x) = a*x + b`
   * `fit f(x) '<nomedovossoficheiro>.data' u 1:2 via a, b`
   * `title_f(a,b) = sprintf('f(x) = %.2fx + %.2f', a, b)`
   * `plot '<nomedovossoficheiro>.data' f(x) t title_f(a,b)`
+
+7. Para fazer com que o grafico seja exportado como png:
+  * `set terminal png size 640,360 enhanced font "Helvetica,10"`
+  * `set output "output.png"`
+
 
 
 

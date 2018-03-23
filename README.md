@@ -18,7 +18,7 @@
 1. Os vertices sao gerados de 1000 em 1000 e vao ate 100000. Podem alterar isto no ciclo for.
 2. Todo o processo de geração de testes pode demorar... sejam pacientes.
 3. Confirmem que os testes estão correctos com o nome do ficheiro. :)
-4. Para ordenarem os resultados: `sort -n +0 -1 <nomedoficheiro>.data > <novoficheiro>.data`
+4. Para ordenarem os resultados: `sort -n +0 -1 results.data > <novoficheiro>.data`
 5. Se quiseres alterar o eixo xx, no `generate_tests_sh`, na linha `mv temp.in $FILES/$v` altera o `$v` para o que quiseres, de acordo com:
 - `$v` = Número de vértices;
 - `$vert` = Número aproximado de vértices+edges;

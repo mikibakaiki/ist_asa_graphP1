@@ -3,7 +3,6 @@
 # Read type as 1st argument
 EXEC=./gerador
 FILES=./tests
-# NUMVERTEX=$1
 ARCHES=5
 
 clear
@@ -25,8 +24,11 @@ for v in `seq 1000 1000 100000`; do
 
 	$EXEC $v $vert $scc > temp.in
 
-	#concatenates strings for naming the file
-	mv temp.in $FILES/$v\_$vert\_$scc.in
+	# naming the file
+	# the file will have the name equal to the number you want to test: either $v= number of vertices;
+	# $vert = number of vertices+edges (approx) or $scc = number of SCC's specified
+
+	mv temp.in $FILES/$v
 done
 
 exit 0

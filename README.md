@@ -5,7 +5,7 @@
 
 1. Extrai o conteudo do zip para uma pasta onde quiseres
 2. Certifica-te que, para a pasta onde extraires o .zip, tens lá o teu projecto compilado e pronto para executar
-3. Executa o comando `./generate_tests.sh (pode demorar)`
+3. Executa o comando `./generate_tests.sh` (pode demorar)
 4. Depois, executa `./test.sh ./<nome do executavel do teu projecto> |tee <nomequequiseres>.data`
 5. Em seguida, vais precisar de usar o gnuplot. Para fazeres download, caso nao tenhas, executa `sudo apt-get install gnuplot-x11`
 6. Agora, executa `gnuplot` e quando o programa abrir, executa `plot "<nomedoficheiro>.data"`

@@ -24,8 +24,16 @@
 - `$vert` = Número aproximado de vértices+edges;
 - `$scc` = Número de SCC especificado.
 
+6. Para usar linhas no grafo para regressão linear:
+  * `f(x) = a*x + b`
+  * `fit f(x) '<nomedovossoficheiro>.data' u 1:2 via a, b`
+  * `title_f(a,b) = sprintf('f(x) = %.2fx + %.2f', a, b)`
+  * `plot '<nomedovossoficheiro>.data' f(x) t title_f(a,b)`
+
+
+
 Qualquer erro, sugestão ou melhoria, digam-me :)
 
 
 
-**_Disclaimer:_** Baseado em trabalho de outros colegas de anos anteriores. Créditos deles, e um obrigado.
+**_Disclaimer:_** Utilizem o gerador a vosso próprio risco. Baseado em trabalho de outros colegas de anos anteriores. Créditos deles, e um obrigado.

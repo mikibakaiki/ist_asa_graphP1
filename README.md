@@ -1,7 +1,7 @@
 # Gerador de testes e respectivo gráfico
 
 
-#INSTRUÇÕES
+# INSTRUÇÕES
 
 1. Extrai o conteudo do zip para uma pasta onde quiseres
 2. Certifica-te que, para a pasta onde extraires o .zip, tens lá o teu projecto compilado e pronto para executar
@@ -13,7 +13,7 @@
 8. Para saires do gnuplot, faz quit
 
 
-#ALGUMAS NOTAS
+# ALGUMAS NOTAS
 
 1. Os vertices sao gerados de 1000 em 1000 e vao ate 100000. Podem alterar isto no ciclo for.
 2. Todo o processo de geração de testes pode demorar... sejam pacientes.

@@ -5,7 +5,6 @@ EXEC=${1:-/dev/stdin}
 FILES=tests/*
 REPETITIONS=5
 
-[ -e results.data ] && rm results.data
 for f in $FILES; do
 
 	## Start the clock!

@@ -19,3 +19,6 @@
 2. Todo o processo de geração de testes pode demorar... sejam pacientes.
 3. Confirmem que os testes estão correctos com o nome do ficheiro. :)
 4. Para ordenarem os resultados: `sort -n +0 -1 <nomedoficheiro>.data> <novoficheiro>.data`
+
+
+Qualquer erro, sugestão ou melhoria, digam-me :)

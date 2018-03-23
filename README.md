@@ -22,3 +22,7 @@
 
 
 Qualquer erro, sugestão ou melhoria, digam-me :)
+
+
+
+**_Disclaimer:_** Baseado em trabalho de outros colegas de anos anteriores. Créditos deles, e um obrigado.
